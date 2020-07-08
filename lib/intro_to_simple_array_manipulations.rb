@@ -13,3 +13,4 @@ end
 def using_flatten(array = [1, [1], 2, [1, 4], 3, [1, 4, 9]])
   array.flatten
 end
+
