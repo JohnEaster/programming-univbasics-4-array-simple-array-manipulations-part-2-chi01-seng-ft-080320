@@ -15,7 +15,7 @@ def using_flatten(array = [1, [1], 2, [1, 4], 3, [1, 4, 9]])
 end
 
 def using_delete(array = ["ant", "bat", "cat", "dog"], element = "cat")
-  arrray.delete(element)
+  array.delete(element)
 end
 
 def using_delete_at(array = ["ant", "bat", "cat", "dog"], n = 2)
