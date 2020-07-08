@@ -18,6 +18,6 @@ def using_delete(array = ["ant", "bat", "cat", "dog"], element = "cat")
   arrray.delete(element)
 end
 
-def using_delete_at(array = ["ant", "bat", "cat", "dog"])
-  array.delete_at(2)
+def using_delete_at(array = ["ant", "bat", "cat", "dog"], n = 2)
+  array.delete_at(n)
 end
